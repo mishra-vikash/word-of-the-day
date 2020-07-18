@@ -1,6 +1,6 @@
 .card {
-    width: 50rem;
-    height: 25rem;
+    width: 50vw;
+    height: 40vh;
     background-color: wheat;
     color: black;
     margin: auto;
@@ -12,33 +12,33 @@
 }
 
 .word-of-the-day {
-    padding: 1rem;
+    padding: 1vw;
     font-family: cursive;
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: bold;
     background-color:black;
     color: burlywood;
-    height: 10rem;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+    height: 10vw;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
 }
 
 .type {
     font-style: italic;
-    padding: .5rem;
+    padding: .5vw;
 }
 
 .meaning {
     margin-top: 2vh;
     font-style: oblique;
-    padding: .5rem;
+    padding: .5vw;
 }
 
 .buttonContainer {
     position: relative;
-    left: 45rem;
-    top: 40rem;
+    left: 45vw;
+    top: 65vh;
 }
 button {
-    margin: .5rem;
+    margin: .5vw;
 }
