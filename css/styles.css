@@ -1,0 +1,28 @@
+.card {
+    width: 50rem;
+    height: 15rem;
+    background-color: wheat;
+    color: black;
+    margin: auto;
+    padding: 2rem;
+    position: fixed;
+    top: 25vh;
+    left: 25vw;
+    border-radius: 2rem;
+}
+
+.word-of-the-day {
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.type {
+    font-style: italic;
+}
+
+.meaning {
+    margin-top: 2vh;
+    font-style: oblique;
+}
