@@ -1,10 +1,10 @@
 .card {
     width: 50rem;
-    height: 15rem;
+    height: 25rem;
     background-color: wheat;
     color: black;
     margin: auto;
-    padding: 2rem;
+
     position: fixed;
     top: 25vh;
     left: 25vw;
@@ -12,17 +12,33 @@
 }
 
 .word-of-the-day {
+    padding: 1rem;
     font-family: cursive;
     font-size: 2rem;
     font-weight: bold;
-    color: darkblue;
+    background-color:black;
+    color: burlywood;
+    height: 10rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .type {
     font-style: italic;
+    padding: .5rem;
 }
 
 .meaning {
     margin-top: 2vh;
     font-style: oblique;
+    padding: .5rem;
+}
+
+.buttonContainer {
+    position: relative;
+    left: 45rem;
+    top: 40rem;
+}
+button {
+    margin: .5rem;
 }
