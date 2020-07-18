@@ -45,7 +45,47 @@ button {
 
 @media screen and (max-width: 800px) {
     .card {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 100%;
         margin: 0px;
+        position: initial;
+        background-color: wheat;
+        color: black;
+        height: 20rem;
+        top: 50vh;
+        left: 50vw;
+        border-radius: 2rem;
+        margin: -1rem;
+    }
+
+    .buttonContainer {
+        position: relative;
+        left: 15vw;
+        top: 5vh;
+    }
+
+    .word-of-the-day {
+        padding: 1vw;
+        font-family: cursive;
+        font-size: 12vw;
+        font-weight: bold;
+        background-color:black;
+        color: burlywood;
+        height: 15vw;
+        border-top-right-radius: 1vw;
+        border-top-left-radius: 1vw;
+        padding: 1vw;
+    }
+
+    .type {
+        font-style: italic;
+        padding: 1vw;
+    }
+
+    .meaning {
+        margin-top: 2vh;
+        font-style: oblique;
+        padding: 1vw;
     }
 }
+
+
