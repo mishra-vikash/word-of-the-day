@@ -29,5 +29,13 @@ const words = [
         meaning: [
             "Holding firmly to an opinion or a course of action."
         ]
+    },
+    {
+        word: "Perfunctory", type: "adjective",
+        meaning: [
+            "Performed merely as a routine duty",
+            "hasty and superficial",
+            "(of an action or gesture) carried out with a minimum of effort or reflection."
+        ]
     }
 ]
