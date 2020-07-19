@@ -3,39 +3,73 @@ const words = [
         word: "Surfeit",
         type: "noun",
         meaning: [
-            "cause (someone) to desire no more of something as a result of having consumed or done it to excess."
+            "Cause (someone) to desire no more of something as a result of having consumed or done it to excess.",
+            "Excessive amount of something."
         ]
     },
     {
-        word: "Captious", type: "adjective",
+        word: "Captious", 
+        type: "adjective",
         meaning: [
-            "tending to find a fault on petty Objections"
+            "Tending to find a fault on petty objections",
+            "Calculated to confuse, entrap or entangle in argument"
         ]
     },
     {
         word: "Lassitude", type: "noun",
         meaning: [
-            "Lethargy, sluggishness"
+            "Lethargy, sluggishness",
+            "State of physical or mental weariness",
+            "Lack of energy"
         ]
     },
     {
-        word: "Placid", type: "adjective",
-        meaning: [
-            "(of a person or animal) not easily upset or excited"
+       word: "Calumny", type: "noun",
+       meaning: [
+           "Making of false and defamatory statements about someone in order to damage their reputation",
+           "Slander"
         ]
     },
     {
         word: "Pertinacious", type: "adjective",
         meaning: [
-            "Holding firmly to an opinion or a course of action."
+            "Holding firmly to an opinion or a course of action.",
+            "Extremely or objectionably persistent."
         ]
     },
     {
-        word: "Perfunctory", type: "adjective",
+        word: "Dross", type: "noun",
         meaning: [
-            "Performed merely as a routine duty",
-            "hasty and superficial",
-            "(of an action or gesture) carried out with a minimum of effort or reflection."
+            "Something regarded as worthless",
+            "Rubbish"
         ]
-    }
+    },
+    {
+        word: "Modicum", type: "noun",
+        meaning: [
+            "Small portion",
+            "Limited quantity"
+        ]
+    },
+    {
+       word: "Listless", type: "adjective",
+       meaning: [
+           "Having or showing little or no interest in anything",
+           "Characterized by lack of interest, energy or spirit"
+        ]
+    },
+    {
+        word: "Indolence", type: "noun",
+        meaning: [
+            "Avoidance of activity or exertion",
+            "Laziness",
+            "Idleness"
+        ]
+    },  
+    {
+        word: "Fervent", type: "adjective",
+        meaning: [
+            "Having or displaying a passionate intensity"
+        ]
+    } 
 ]
