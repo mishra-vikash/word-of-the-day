@@ -1,90 +1,151 @@
-.card {
-    width: 50vw;
+body{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(184,131,17,1) 100%);
+    background: rgb(34,193,195);
+}
+.container {
+    width: 80vw;
     height: 40vh;
-    background-color: wheat;
-    color: black;
-    margin: auto;
-
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    top: 25vh;
-    left: 25vw;
-    border-radius: 2rem;
+    top: 30vh;
+    left: 15vw;
+
+}
+.card {
+
+    background-color: gainsboro;
+    font-family: "League Gothic", Impact, sans-serif;
+    box-shadow: -1px 24px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.word-of-the-day {
-    padding: 1vw;
-    font-family: cursive;
-    font-size: 2vw;
-    font-weight: bold;
-    background-color:black;
-    color: burlywood;
-    height: 10vw;
-    border-top-right-radius: 1vw;
-    border-top-left-radius: 1vw;
+.word {
+    text-transform:uppercase;
+    color: black;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+
 }
 
 .type {
     font-style: italic;
-    padding: .5vw;
 }
 
 .meaning {
     margin-top: 2vh;
     font-style: oblique;
-    padding: .5vw;
 }
 
 .buttonContainer {
-    position: relative;
-    left: 45vw;
-    top: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-button {
-    margin: .5vw;
+.btn {
+    /*margin: .1vw;*/
+}
+.menu-container {
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
 }
 
+.ham {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: .2em;
+}
+
+.meaning {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shift-right {
+    margin-left: 60vw;
+
+}
 @media screen and (max-width: 800px) {
+    .container {
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0vh;
+        left: 0vw;
+
+    }
     .card {
-        width: 100%;
-        margin: 0px;
-        position: initial;
-        background-color: wheat;
+
+        background-color: gainsboro;
+        font-family: "League Gothic", Impact, sans-serif;
+        box-shadow: -1px 24px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .word {
+        text-transform:uppercase;
         color: black;
-        height: 20rem;
-        top: 50vh;
-        left: 50vw;
-        border-radius: 2rem;
-        margin: -1rem;
-    }
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        font-size: 2em;
 
-    .buttonContainer {
-        position: relative;
-        left: 15vw;
-        top: 5vh;
-    }
-
-    .word-of-the-day {
-        padding: 1vw;
-        font-family: cursive;
-        font-size: 12vw;
-        font-weight: bold;
-        background-color:black;
-        color: burlywood;
-        height: 15vw;
-        border-top-right-radius: 1vw;
-        border-top-left-radius: 1vw;
-        padding: 1vw;
     }
 
     .type {
         font-style: italic;
-        padding: 1vw;
     }
 
     .meaning {
         margin-top: 2vh;
         font-style: oblique;
-        padding: 1vw;
+    }
+
+    .buttonContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .btn {
+        /*margin: .1vw;*/
+    }
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1em;
+    }
+
+    .ham {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: .2em;
+    }
+
+    .meaning {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .shift-right {
+        margin-left: 75vw;
+
     }
 }
 
