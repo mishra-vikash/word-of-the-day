@@ -33,7 +33,7 @@ function Meaning(props) {
             <div><i className="fa fa-bars" aria-hidden="true" onClick={props.describeAction}></i></div>
         </div>
         <div className={"menu"}>
-            <div>{props.word}</div>
+            <div style={{"textDecoration":"underline"}}>{props.word}</div>
         </div>
 
         <div className={"menu"}>
