@@ -8,7 +8,7 @@ const words = [
     },
     {word: "Captious", type: "adjective", meaning: ["tending to find a fault on petty Objections"]},
     {word: "Lassitude", type: "noun", meaning: ["Lethargy, sluggishness"]},
-    {word: "Placid", type: "adjective", meaning: ["(of a person or animal) not easily upset or excited"]}
+    {word: "Placid", type: "adjective", meaning: ["(of a person or animal) not easily upset or excited"]},
     {word: "Pertinacious", type: "adjective", meaning: ["Holding firmly to an opinion or a course of action."]}
 ]
 
