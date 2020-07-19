@@ -1,3 +1,4 @@
+const weekList = [1,2,3,4,5,6]
 const words = [
     {
         word: "Surfeit",
@@ -8,7 +9,7 @@ const words = [
         ]
     },
     {
-        word: "Captious", 
+        word: "Captious",
         type: "adjective",
         meaning: [
             "Tending to find a fault on petty objections",
@@ -65,11 +66,11 @@ const words = [
             "Laziness",
             "Idleness"
         ]
-    },  
+    },
     {
         word: "Fervent", type: "adjective",
         meaning: [
             "Having or displaying a passionate intensity"
         ]
-    } 
+    }
 ]
