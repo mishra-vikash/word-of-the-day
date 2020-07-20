@@ -3,6 +3,6 @@ function WeekList(props) {
         return <Week  week={week} index={i} selectWeek={props.selectWeek}/>
     })
     return (<ul className={"list-group"}>
-        {weekListContainer}
+            {weekListContainer}
     </ul>)
 }
