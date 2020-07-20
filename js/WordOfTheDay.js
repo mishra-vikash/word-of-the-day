@@ -8,6 +8,7 @@ class WordOfTheDay extends React.Component {
     constructor(props) {
         super(props);
         this.describeAction = this.describeAction.bind(this);
+        this.navigate = this.navigate.bind(this);
         this.state = {
             current: this.props.startIndex,
             startIndex: this.props.startIndex,
@@ -42,8 +43,8 @@ class WordOfTheDay extends React.Component {
         return (<div className="container">
             <Card word={this.state.words[this.state.current].word} type={this.state.words[this.state.current].type}
                   meaning={this.state.words[this.state.current].meaning} describe={this.state.describe}
-                  describeAction={this.describeAction}/>
-            <div className="shift-right">
+                  describeAction={this.describeAction} navigate={this.navigate} home={this.state.home}/>
+            {/*<div className="shift-right">
                 <div className="buttonContainer" style={{"marginBottom": "-1.5em"}}>
                     <i className="fa fa-caret-up btn" aria-hidden="true" onClick={() => this.state.home()}
                        style={{"fontSize": "2em"}}></i>
@@ -58,7 +59,7 @@ class WordOfTheDay extends React.Component {
                     <i className="fa fa-caret-down btn" aria-hidden="true" onClick={() => this.describeAction()}
                        style={{"fontSize": "2em"}}></i>
                 </div>
-            </div>
+            </div>*/}
         </div>)
     }
 }
