@@ -170,5 +170,5 @@ const words = [
             "A formal discussion on a subject",
             "Discourse or dissertation"
         ]
-    }, 
+    } 
 ]
