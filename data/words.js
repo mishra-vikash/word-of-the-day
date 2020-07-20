@@ -72,5 +72,103 @@ const words = [
         meaning: [
             "Having or displaying a passionate intensity"
         ]
-    }
+    },
+       {
+        word: "Mellifluous",
+        type: "adjective",
+        meaning: [
+            "(of a voice or words) sweet or musical",
+            "Pleasant to hear, having a smooth rich flow honey like"
+        ]
+    },
+    {
+        word: "Obsequious",
+        type: "adjective",
+        meaning: [
+            "Excessively compliant or submissive"
+                 ]
+    },
+    {
+        word: "Sanguine", type: "adjective",
+        meaning: [
+            "Optimistic or positive, especially in an apparently bad or difficult situation",
+            "Marked by eager hopefulness",
+            "Confidently optimistic"
+        ]
+    },
+    {
+       word: "Pellucid", type: "adjective",
+       meaning: [
+           "Clear in meaning, expression or style"
+        ]
+    },
+    {
+        word: "Imbroglio", type: "noun",
+        meaning: [
+            "A complicated situation.",
+            "An extremely confused, complicated, or embarrassing situation."
+        ]
+    },
+    {
+        word: "Nugacity", type: "noun",
+        meaning: [
+            "A trivial or frvolous thing or idea",
+            "Insignificant"
+        ]
+    },
+    {
+        word: "Fabulist", type: "noun",
+        meaning: [
+            "A person who invents elaborate, dishonest stories"
+        ]
+    },
+    {
+       word: "Balk", type: "verb",
+       meaning: [
+           "Hesitate or be unwilling to accept an idea or undertaking"
+        ]
+    },
+    {
+        word: "Perfunctory", type: "adjective",
+        meaning: [
+            "Performed merely as a routine duty",
+            "Hasty and superficial",
+            "(of an action or gesture) carried out with a minimum of effort or reflection."
+        ]
+    },
+    {
+        word: "Placid", type: "adjective",
+        meaning: [
+            "(of a person or animal) not easily upset or excited",
+            "Even tempered",
+            "Calm"
+        ]
+    },
+    {
+        word: "Irascible", type: "adjective",
+        meaning: [
+            "Having showing a tendency to be easily anered"
+        ]
+    },
+    {
+        word: "Stolid", type: "adjective",
+        meaning: [
+            "Having or expressing little or no sensibility",
+            "(of people) not very exciting or interesting",
+            "Unemotional/impassive"
+        ]
+    },
+    {
+        word: "Salubrious", type: "adjective",
+        meaning: [
+            "Favorable to or promoting health or well-being"
+        ]
+    },
+   {
+        word: "Disquisition", type: "noun",
+        meaning: [
+            "A formal discussion on a subject",
+            "Discourse or dissertation"
+        ]
+    }, 
 ]
