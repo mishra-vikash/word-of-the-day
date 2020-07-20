@@ -74,6 +74,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    animation-name: example;
+    animation-duration: 1s;
 }
 
 .shift-right {
@@ -93,18 +95,15 @@ body{
 }
 
 @keyframes example {
-    0% {transform:translateY(-10vh); color: purple}
-    25% {transform: translateY(10vh); color: crimson}
-    50% {transform: translateY(-5vh); color: darkblue}
-    75% {transform: translateY(5vh); color: blueviolet}
-    100% {transform: translateY(0vh); color: darkmagenta}
+    0% { opacity: .3}
+    20% { opacity: .4}
+    40% { opacity: .5}
+    60% { opacity: .6}
+    80% { opacity: .7}
+    100% { opacity: .8}
 }
 
-@keyframes example2 {
-    0% {transform:translateY(-10vh)}
-    50% {transform: translateY(10vh)}
-    100% {transform: translateY(0vh)}
-}
+
 @media screen and (max-width: 800px) {
     .container {
         width: 100vw;
@@ -197,17 +196,12 @@ body{
         margin: 0em;
     }
     @keyframes example {
-        0% {transform:translateY(-10vh); color: purple}
-        25% {transform: translateY(10vh); color: crimson}
-        50% {transform: translateY(-5vh); color: darkblue}
-        75% {transform: translateY(5vh); color: blueviolet}
-        100% {transform: translateY(0vh); color: darkmagenta}
-    }
-
-    @keyframes example2 {
-        0% {transform:translateY(-10vh)}
-        50% {transform: translateY(10vh)}
-        100% {transform: translateY(0vh)}
+        0% { opacity: .3}
+        20% { opacity: .4}
+        40% { opacity: .5}
+        60% { opacity: .6}
+        80% { opacity: .7}
+        100% { opacity: .8}
     }
 }
 
