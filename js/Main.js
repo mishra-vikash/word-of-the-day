@@ -21,7 +21,7 @@ class Main extends React.Component {
 
     render(){
         if(this.state.showWords){
-            return <WordOfTheDay startIndex={0} endIndex={9} home={this.home}/>
+            return <WordOfTheDay startIndex={this.state.startIndex} endIndex={this.state.endIndex} home={this.home}/>
         }else {
             return <WeekList selectWeek={this.selectWeek}/>
         }
