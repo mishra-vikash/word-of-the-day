@@ -123,6 +123,8 @@ body{
         background-color: gainsboro;
         font-family: "League Gothic", Impact, sans-serif;
         box-shadow: -1px 24px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        animation-name: example2;
+        animation-duration: 2s;
     }
 
     .word {
@@ -134,7 +136,8 @@ body{
         font-size: 1.5em;
         justify-content: center;
         flex-basis: 98%;
-
+        animation-name: example;
+        animation-duration: 1s;
     }
 
     .type {
@@ -197,6 +200,19 @@ body{
         justify-content: flex-end;
         flex-basis: 1%;
         margin: 0em;
+    }
+    @keyframes example {
+        0% {transform:translateY(-10vh); color: purple}
+        25% {transform: translateY(10vh); color: crimson}
+        50% {transform: translateY(-5vh); color: darkblue}
+        75% {transform: translateY(5vh); color: blueviolet}
+        100% {transform: translateY(0vh); color: darkmagenta}
+    }
+
+    @keyframes example2 {
+        0% {transform:translateY(-10vh)}
+        50% {transform: translateY(10vh)}
+        100% {transform: translateY(0vh)}
     }
 }
 
