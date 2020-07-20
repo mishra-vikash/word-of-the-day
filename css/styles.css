@@ -116,15 +116,12 @@ body{
         position: fixed;
         top: 0vh;
         left: 0vw;
-
-    }
+s    }
     .card {
 
         background-color: gainsboro;
         font-family: "League Gothic", Impact, sans-serif;
         box-shadow: -1px 24px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        animation-name: example2;
-        animation-duration: 2s;
     }
 
     .word {
