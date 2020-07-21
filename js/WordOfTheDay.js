@@ -22,9 +22,13 @@ class WordOfTheDay extends React.Component {
     navigate = (factor) => {
 
         let current = this.state.current;
-        if (this.state.current + factor >= this.state.words.length - 1 || this.state.current + factor >= this.state.endIndex) {
+        if (this.state.current + factor > this.state.words.length - 1 || this.state.current + factor > this.state.endIndex) {
             current = this.state.startIndex;
-        }else if (this.state.current + factor < this.props.startIndex) {
+        }
+        else if (this.state.current + factor > this.state.words.length - 1 || this.state.current + factor > this.state.endIndex) {
+            current = this.state.startIndex;
+        }  
+        else if (this.state.current + factor < this.props.startIndex) {
             current = this.state.endIndex;
         } else {
             current = this.state.current + factor
