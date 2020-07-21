@@ -170,5 +170,12 @@ const words = [
             "A formal discussion on a subject",
             "Discourse or dissertation"
         ]
+    },
+    {
+        word: "Sedulous", type: "adjective",
+        meaning: [
+            "(of a person or action) showing dedication and diligence.",
+            "Persistently or carefully maintained:"
+        ]
     } 
 ]
