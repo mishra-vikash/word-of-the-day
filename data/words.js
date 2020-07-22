@@ -177,5 +177,13 @@ const words = [
             "(of a person or action) showing dedication and diligence.",
             "Persistently or carefully maintained:"
         ]
+    },
+    {
+        word: "Perennial", type: "adjective",
+        meaning: [
+            "Everlasting/Eternal/Unending",
+            "Lasting or existing for a long or apparently infinite time",
+            "Enduring or continually recurring"
+        ]
     } 
 ]
