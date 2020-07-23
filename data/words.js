@@ -185,5 +185,13 @@ const words = [
             "Lasting or existing for a long or apparently infinite time",
             "Enduring or continually recurring"
         ]
-    } 
+    }, 
+   {
+        word: "Ornery", type: "adjective",
+        meaning: [
+            "Having an irritable disposition",
+            "Bad tempered and combative",
+            "Difficult to deal with"
+        ]
+    }
 ]
