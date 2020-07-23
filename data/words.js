@@ -193,5 +193,13 @@ const words = [
             "Bad tempered and combative",
             "Difficult to deal with"
         ]
+    },
+   {
+        word: "Imperious", type: "adjective",
+        meaning: [
+            "Assuming power or authority without justification",
+            "Arrogant and domineering",
+            "Intensely compelling,Urgent"
+        ]
     }
 ]
