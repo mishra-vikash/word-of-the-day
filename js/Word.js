@@ -8,7 +8,7 @@ function Word(props) {
             <div><i className="fa fa-caret-left btn left" aria-hidden="true" onClick={() => props.navigate(-1)}
                style={{"fontSize": "2.5em"}}></i></div>
             <div className="word" onClick={props.describeAction}>{props.word} ({props.type})</div>
-            <div><i className="fa fa-caret-right btn right" aria-hidden="true" onClick={() => props.navigate(1)}
+            <div onTouchStart={() => props.navigate(1)} ><i className="fa fa-caret-right btn right" aria-hidden="true" onClick={() => props.navigate(1)}
                style={{"fontSize": "2.5em"}}></i></div>
         </div>
     </div>
