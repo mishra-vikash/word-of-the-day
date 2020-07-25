@@ -25,14 +25,12 @@ class WordOfTheDay extends React.Component {
         if (this.state.current + factor > this.state.words.length - 1 || this.state.current + factor > this.state.endIndex) {
             current = this.state.startIndex;
         }
-        else if (this.state.current + factor > this.state.words.length - 1 || this.state.current + factor > this.state.endIndex) {
-            current = this.state.startIndex;
-        }  
-        else if (this.state.current + factor < this.props.startIndex) {
-            current = this.state.endIndex;
-        } else {
-            current = this.state.current + factor
+        else if (this.state.current + factor < this.state.startIndex  || this.state.current + factor < 0) {
+            current = this.state.endIndex > this.state.words.length - 1 ? this.state.words.length - 1 : this.state.endIndex;
+        }else {
+            current = this.state.current + factor;
         }
+
         this.setState({describe: false})
         this.setState({current: current})
     }
@@ -60,7 +58,7 @@ class WordOfTheDay extends React.Component {
                 <div className="buttonContainer">
                     <i className="fa fa-caret-down btn" aria-hidden="true" onClick={() => this.describeAction()}
                        style={{"fontSize": "2em"}}></i>
-                </div>
+                 </div>
             </div>*/}
         </div>)
     }
