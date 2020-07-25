@@ -1,5 +1,9 @@
 body{
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(184,131,17,1) 100%);
+    background: linear-gradient(to right top, #00c9a7, #00cdba, #00d0cc, #00d3dd, #12d5eb);
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background: rgb(34,193,195);
 }
 .container {
@@ -13,8 +17,10 @@ body{
 
 }
 .card {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background-color: gainsboro;
     font-family: "League Gothic", Impact, sans-serif;
     box-shadow: -1px 24px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -40,6 +46,7 @@ body{
 .meaning {
     margin-left: 2vw;
     font-style: oblique;
+    margin-bottom: 5vh;
 }
 
 .buttonContainer {
@@ -152,6 +159,7 @@ img {
     .meaning {
         margin-left: 2vw;
         font-style: oblique;
+        margin-bottom: 10vh;
     }
 
     .buttonContainer {
