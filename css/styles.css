@@ -94,6 +94,14 @@ body{
     margin: 0em;
 }
 
+.cardt {
+    width: 50vw;
+}
+
+img {
+    width: 10rem;
+}
+
 @keyframes example {
     0% { opacity: .3}
     20% { opacity: .4}
@@ -102,6 +110,9 @@ body{
     80% { opacity: .7}
     100% { opacity: .8}
 }
+
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -202,6 +213,10 @@ body{
         60% { opacity: .6}
         80% { opacity: .7}
         100% { opacity: .8}
+    }
+
+    img {
+        width: auto;
     }
 }
 

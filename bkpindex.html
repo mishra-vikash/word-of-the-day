@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <script type="text/javascript">
-    setTimeout(()=>{
-        alert("Hello");
-    },1000)
+     let one = false;
+     function flip(e) {
+         document.getElementById("parent").classList.add("rotateMe");
+         setTimeout(()=>{
+             document.getElementById("parent").classList.remove("rotateMe")
+             if(one){
+                 document.getElementById("one").classList.remove("hide");
+                 document.getElementById("two").classList.add("hide");
+             }else {
+                 document.getElementById("two").classList.remove("hide");
+                 document.getElementById("one").classList.add("hide");
+             }
+             one = !one;
+         }, 2000)
+
+
+
+
+     }
 </script>
+<style type="text/css">
+    .hide {
+        display: none;
+    }
+
+    .rotateMe {
+        animation-name: rotateMeAnimation;
+        animation-duration: 2s;
+    }
+
+
+
+    @keyframes rotateMeAnimation {
+        0% {transform: rotateX(0) ; color: yellow;}
+        100% {transform: rotateX(180deg) ; color: yellow;}
+    }
+
+</style>
 <link rel="stylesheet" href="css/styles.css">
 
 <html>
-<div class="card">
-    <div class="word-of-the-day">Placid</div>
-    <div class="type">adjective</div>
-    <div class="meaning">(of a person or animal) not easily upset or excited</div>
+<div style="width: 50vw; background-color: yellow" onclick="flip(this)" id="parent">
+    <h1 id="one" class="">Hello</h1>
+    <h1 id="two" class="hide">Hi</h1>
+    <h1></h1>
 </div>
 
 </html>

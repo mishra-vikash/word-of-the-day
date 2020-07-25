@@ -1,4 +1,14 @@
 const weekList = [1,2,3]
+//Modify this section for the revision word
+const revisionWord = {
+    word: "Surfeit",
+    type: "noun",
+    meaning: [
+        "Cause (someone) to desire no more of something as a result of having consumed or done it to excess.",
+        "Excessive amount of something."
+    ]
+};
+
 const words = [
     {
         word: "Surfeit",
@@ -185,7 +195,7 @@ const words = [
             "Lasting or existing for a long or apparently infinite time",
             "Enduring or continually recurring"
         ]
-    }, 
+    },
    {
         word: "Ornery", type: "adjective",
         meaning: [
