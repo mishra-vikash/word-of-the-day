@@ -1,13 +1,12 @@
 const weekList = [1,2,3]
 //Modify this section for the revision word
 const revisionWord = {
-    word: "Surfeit",
-    type: "noun",
-    meaning: [
-        "Cause (someone) to desire no more of something as a result of having consumed or done it to excess.",
-        "Excessive amount of something."
-    ]
-};
+        word: "Obsequious",
+        type: "adjective",
+        meaning: [
+            "Excessively compliant or submissive"
+                 ]
+    };
 
 const words = [
     {
@@ -157,7 +156,7 @@ const words = [
     {
         word: "Irascible", type: "adjective",
         meaning: [
-            "Having showing a tendency to be easily anered"
+            "Having showing a tendency to be easily angered"
         ]
     },
     {
@@ -211,5 +210,12 @@ const words = [
             "Arrogant and domineering",
             "Intensely compelling,Urgent"
         ]
-    }
+    },
+   {
+        word: "Perfidious", type: "adjective",
+        meaning: [
+            "Deceitful and untrustworthy.",
+            "Disloyal, faithless"
+        ]
+    }   
 ]
