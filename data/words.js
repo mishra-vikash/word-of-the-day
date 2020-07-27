@@ -1,11 +1,11 @@
 const weekList = [1,2,3]
 //Modify this section for the revision word
-const revisionWord = {
-        word: "Obsequious",
-        type: "adjective",
+const revisionWord =     {
+        word: "Nugacity", type: "noun",
         meaning: [
-            "Excessively compliant or submissive"
-                 ]
+            "A trivial or frvolous thing or idea",
+            "Insignificant"
+        ]
     };
 
 const words = [
@@ -217,5 +217,12 @@ const words = [
             "Deceitful and untrustworthy.",
             "Disloyal, faithless"
         ]
+    },
+   {
+        word: "Impecunious", type: "adjective",
+        meaning: [
+            "Poor, having no money."
+        ]
     }   
+        
 ]
