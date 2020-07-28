@@ -1,10 +1,11 @@
 const weekList = [1,2,3]
 //Modify this section for the revision word
 const revisionWord =     {
-        word: "Nugacity", type: "noun",
+        word: "Mellifluous",
+        type: "adjective",
         meaning: [
-            "A trivial or frvolous thing or idea",
-            "Insignificant"
+            "(of a voice or words) sweet or musical",
+            "Pleasant to hear, having a smooth rich flow honey like"
         ]
     };
 
@@ -222,6 +223,13 @@ const words = [
         word: "Impecunious", type: "adjective",
         meaning: [
             "Poor, having no money."
+        ]
+    },
+   {
+        word: "Vagary", type: "noun",
+        meaning: [
+            "A whimsical, wild, or unusual idea, desire, or action.",
+            "An unexpected and inexplicable change in a situation or in someone's behavior."
         ]
     }   
         
