@@ -1,11 +1,9 @@
 const weekList = [1,2,3]
 //Modify this section for the revision word
-const revisionWord =     {
-        word: "Mellifluous",
-        type: "adjective",
-        meaning: [
-            "(of a voice or words) sweet or musical",
-            "Pleasant to hear, having a smooth rich flow honey like"
+const revisionWord =      {
+       word: "Balk", type: "verb",
+       meaning: [
+           "Hesitate or be unwilling to accept an idea or undertaking"
         ]
     };
 
@@ -231,6 +229,14 @@ const words = [
             "A whimsical, wild, or unusual idea, desire, or action.",
             "An unexpected and inexplicable change in a situation or in someone's behavior."
         ]
-    }   
+    },
+   {
+        word: "Banality", type: "noun",
+        meaning: [
+            " Devoid of freshness or originality",
+            "Boring",
+                "Something commonplace/routine"
+        ]
+    }
         
 ]
