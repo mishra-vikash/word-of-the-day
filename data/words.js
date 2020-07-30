@@ -1,9 +1,10 @@
 const weekList = [1,2,3,4]
 //Modify this section for the revision word
-const revisionWord =      {
-       word: "Balk", type: "verb",
-       meaning: [
-           "Hesitate or be unwilling to accept an idea or undertaking"
+const revisionWord =     {
+        word: "Perfidious", type: "adjective",
+        meaning: [
+            "Deceitful and untrustworthy.",
+            "Disloyal, faithless"
         ]
     };
 
@@ -236,6 +237,13 @@ const words = [
             " Devoid of freshness or originality",
             "Boring",
                 "Something commonplace/routine"
+        ]
+    },
+   {
+        word: "Vestige", type: "noun",
+        meaning: [
+            "A trace of something that is disappearing or no longer exists (remanant);",
+            "The smallest amount (used to emphasize the absence of something"
         ]
     }
         
