@@ -1,10 +1,9 @@
 const weekList = [1,2,3,4]
 //Modify this section for the revision word
-const revisionWord =     {
-        word: "Perfidious", type: "adjective",
+const revisionWord =      {
+        word: "Fervent", type: "adjective",
         meaning: [
-            "Deceitful and untrustworthy.",
-            "Disloyal, faithless"
+            "Having or displaying a passionate intensity"
         ]
     };
 
@@ -244,6 +243,14 @@ const words = [
         meaning: [
             "A trace of something that is disappearing or no longer exists (remanant);",
             "The smallest amount (used to emphasize the absence of something"
+        ]
+    },
+    {
+        word: "Pejorative", type: "adjective",
+        meaning: [
+            "Expressing contempt or disapproval",
+            "Having negative connotation",
+            "Tending to belittle"
         ]
     }
         
