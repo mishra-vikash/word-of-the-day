@@ -1,9 +1,10 @@
 const weekList = [1,2,3,4]
 //Modify this section for the revision word
-const revisionWord =      {
-        word: "Fervent", type: "adjective",
+const revisionWord =     {
+        word: "Imbroglio", type: "noun",
         meaning: [
-            "Having or displaying a passionate intensity"
+            "A complicated situation.",
+            "An extremely confused, complicated, or embarrassing situation."
         ]
     };
 
@@ -251,6 +252,13 @@ const words = [
             "Expressing contempt or disapproval",
             "Having negative connotation",
             "Tending to belittle"
+        ]
+    },
+   {
+        word: "Plaintive", type: "adjective",
+        meaning: [
+            "Expressive of suffering or woe.",
+            "Sounding sad and mournful"
         ]
     }
         
