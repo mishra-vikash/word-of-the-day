@@ -1,10 +1,11 @@
 const weekList = [1,2,3,4]
 //Modify this section for the revision word
-const revisionWord =     {
-        word: "Imbroglio", type: "noun",
+const revisionWord =       {
+        word: "Ornery", type: "adjective",
         meaning: [
-            "A complicated situation.",
-            "An extremely confused, complicated, or embarrassing situation."
+            "Having an irritable disposition",
+            "Bad tempered and combative",
+            "Difficult to deal with"
         ]
     };
 
@@ -259,6 +260,13 @@ const words = [
         meaning: [
             "Expressive of suffering or woe.",
             "Sounding sad and mournful"
+        ]
+    },
+   {
+        word: "Quaint", type: "adjective",
+        meaning: [
+            "Strange, peculiar, or unusual in an interesting, pleasing, or amusing way",
+            "Having an old-fashioned attractiveness or charm; oddly picturesque"
         ]
     }
         
