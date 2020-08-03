@@ -1,11 +1,10 @@
 const weekList = [1,2,3,4]
 //Modify this section for the revision word
-const revisionWord =       {
-        word: "Ornery", type: "adjective",
+const revisionWord =          {
+        word: "Vagary", type: "noun",
         meaning: [
-            "Having an irritable disposition",
-            "Bad tempered and combative",
-            "Difficult to deal with"
+            "A whimsical, wild, or unusual idea, desire, or action.",
+            "An unexpected and inexplicable change in a situation or in someone's behavior."
         ]
     };
 
@@ -268,6 +267,14 @@ const words = [
             "Strange, peculiar, or unusual in an interesting, pleasing, or amusing way",
             "Having an old-fashioned attractiveness or charm; oddly picturesque"
         ]
-    }
-        
+    },
+    {
+        word: "Propinquity", type: "noun",
+        meaning: [
+            "Nearness in place; proximity",
+            "Nearness of relation; kinship.",
+            "Affinity of nature; similarity.",
+            "Nearness in time"   
+        ]
+    }      
 ]
