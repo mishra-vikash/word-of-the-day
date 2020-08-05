@@ -276,5 +276,13 @@ const words = [
             "Affinity of nature; similarity.",
             "Nearness in time"   
         ]
-    }      
+    },
+    {
+        word: "Commiseration", type: "noun",
+        meaning: [
+            "Sympathy and sorrow for the misfortunes of others",
+            "Compassion.",
+            "Expressions of sympathy and sorrow for another."
+        ]
+    }    
 ]
