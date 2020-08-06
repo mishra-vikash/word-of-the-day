@@ -284,5 +284,12 @@ const words = [
             "Compassion.",
             "Expressions of sympathy and sorrow for another."
         ]
-    }    
+    },
+   {
+        word: "Bellicose", type: "adjective",
+        meaning: [
+            "Inclined or eager to fight",
+            "Aggresively hostile"
+        ]
+    }
 ]
