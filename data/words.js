@@ -289,7 +289,7 @@ const words = [
         word: "Bellicose", type: "adjective",
         meaning: [
             "Inclined or eager to fight",
-            "Aggresively hostile"
+            "Aggressively hostile"
         ]
     }
 ]
