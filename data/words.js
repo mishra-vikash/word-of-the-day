@@ -291,5 +291,13 @@ const words = [
             "Inclined or eager to fight",
             "Aggressively hostile"
         ]
+    },
+   {
+        word: "Risible", type: "adjective",
+        meaning: [
+            "Causing or capable of causing laughter; laughable; ludicrous.",
+            "Having the ability, disposition, or readiness to laugh.",
+            "Pertaining to or connected with laughing."
+        ]
     }
 ]
