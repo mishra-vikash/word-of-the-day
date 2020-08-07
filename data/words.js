@@ -299,5 +299,11 @@ const words = [
             "Having the ability, disposition, or readiness to laugh.",
             "Pertaining to or connected with laughing."
         ]
-    }
+    },
+    {
+        word: "Axiomatic", type: "adjective",
+        meaning: [
+            "Self-evident or unquestionable",
+        ]
+    }   
 ]
