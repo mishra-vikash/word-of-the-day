@@ -305,5 +305,12 @@ const words = [
         meaning: [
             "Self-evident or unquestionable",
         ]
+    },
+   {
+        word: "Eschew", type: "verb",
+        meaning: [
+            "To abstain or keep away from",
+             "avoid"
+        ]
     }   
 ]
