@@ -1,4 +1,4 @@
-const weekList = [1,2,3,4]
+const weekList = [1,2,3,4,5,6]
 //Modify this section for the revision word
 const revisionWord =          {
         word: "Vagary", type: "noun",
