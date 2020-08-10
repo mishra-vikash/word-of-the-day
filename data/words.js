@@ -314,7 +314,7 @@ const words = [
         ]
     },
     {
-        word: "Incisive", type: "verb",
+        word: "Incisive", type: "adjective",
         meaning: [
             "Remarkably clear and direct",
             "Sharp; keen; acute:",
