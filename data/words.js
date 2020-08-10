@@ -312,5 +312,13 @@ const words = [
             "To abstain or keep away from",
              "avoid"
         ]
-    }   
+    },
+    {
+        word: "Incisive", type: "verb",
+        meaning: [
+            "Remarkably clear and direct",
+            "Sharp; keen; acute:",
+            "Penetrating; cutting; biting"
+        ]
+    } 
 ]
