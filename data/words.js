@@ -320,5 +320,19 @@ const words = [
             "Sharp; keen; acute:",
             "Penetrating; cutting; biting"
         ]
-    } 
+    },
+  {     word: "Incongruous", type: "adjective",
+        meaning: [
+            "Out of place; inappropriate",
+            "Not harmonious in character; inconsonant; lacking harmony of parts",
+            "Inconsistent"
+        ]
+    },
+  {     word: "Prolix", type: "adjective",
+        meaning: [
+            "(of writing) Extended to great, unnecessary, or tedious length; long and wordy.",
+            "(of a person) Given to speaking or writing at great or tedious length."
+        ]
+    }
+        
 ]
