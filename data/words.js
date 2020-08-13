@@ -333,6 +333,14 @@ const words = [
             "(of writing) Extended to great, unnecessary, or tedious length; long and wordy.",
             "(of a person) Given to speaking or writing at great or tedious length."
         ]
+    },
+   {     word: "Discursive", type: "adjective",
+        meaning: [
+            "Passing aimlessly from one subject to another",
+            "Digressive",
+            "Rambling"
+        ]
     }
+   
         
 ]
