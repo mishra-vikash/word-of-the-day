@@ -340,7 +340,12 @@ const words = [
             "Digressive",
             "Rambling"
         ]
-    }
-   
-        
+    },
+   {     word: "Propitious", type: "adjective",
+        meaning: [
+            "Presenting favorable conditions",
+            "Favorably disposed toward someone",
+            "Indicating good chance of success"
+        ]
+    }       
 ]
