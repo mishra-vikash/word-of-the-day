@@ -347,5 +347,35 @@ const words = [
             "Favorably disposed toward someone",
             "Indicating good chance of success"
         ]
-    }       
+    },
+    {     word: "Infructuous", type: "adjective",
+        meaning: [
+            "Pointless",
+            "Unfruitful"
+        ]
+    },
+    {     word: "Querulous", type: "adjective",
+        meaning: [
+            "Complaining in a childish or whinning manner",
+            "Full of complaints"
+        ]
+    },
+    {     word: "Incredulity", type: "noun",
+        meaning: [
+            "The state of being unwilling or unable to belief something",
+            "Disbelief"
+        ]
+    },
+    {     word: "Penitent", type: "adjective",
+        meaning: [
+            "Feeling or showing sorrow and regret for having done wrong",
+            "Repentant"
+        ]
+    },
+    {     word: "Zhoosh/Zhuzh", type: "verb/noun",
+        meaning: [
+            "Verb: To make something more lively and interesting, stylish, or appealing, as by a small change or addition",
+            "Noun: Act of giving something lively interest, style, or appeal, or the fact of having these qualities"
+        ]
+    }    
 ]
