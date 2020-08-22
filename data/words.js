@@ -377,5 +377,11 @@ const words = [
             "Verb: To make something more lively and interesting, stylish, or appealing, as by a small change or addition",
             "Noun: Act of giving something lively interest, style, or appeal, or the fact of having these qualities"
         ]
-    }    
+    },
+    {     word: "Quixotic", type: "adjective",
+        meaning: [
+            "Exceedingly idealistic", 
+            "Unrealistic and impractical.
+        ]
+    } 
 ]
