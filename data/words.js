@@ -1,4 +1,4 @@
-const weekList = [1,2,3,4,5,6]
+const weekList = [1,2,3,4,5,6,7]
 //Modify this section for the revision word
 const revisionWord =          {
         word: "Vagary", type: "noun",
@@ -383,5 +383,12 @@ const words = [
             "Exceedingly idealistic", 
             "Unrealistic and impractical.
         ]
-    } 
+    },
+    {     word: "Punctilious", type: "adjective",
+        meaning: [
+            "Paying scrupulous attention to correctness in etiquette", 
+            "Attentive to detail"
+        ]
+    }
+        
 ]
