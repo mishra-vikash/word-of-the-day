@@ -1,7 +1,8 @@
 const weekList = [1,2,3,4,5,6,7]
 //Modify this section for the revision word
-const revisionWord =          {
-        word: "Vagary", type: "noun",
+const revisionWord = {
+        word: "Vagary", 
+        type: "noun",
         meaning: [
             "A whimsical, wild, or unusual idea, desire, or action.",
             "An unexpected and inexplicable change in a situation or in someone's behavior."
@@ -381,7 +382,7 @@ const words = [
     {     word: "Quixotic", type: "adjective",
         meaning: [
             "Exceedingly idealistic", 
-            "Unrealistic and impractical.
+            "Unrealistic and impractical."
         ]
     },
     {     word: "Punctilious", type: "adjective",
