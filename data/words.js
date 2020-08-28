@@ -401,6 +401,15 @@ const words = [
         meaning: [
             "Speak or write about (something) with great hostility. " 
         ]
+    },
+   
+   {     word: "Frisson", type: "noun",
+        meaning: [
+            "A brief moment of emotional excitement",
+            "Shudder",
+            "Thrill"
+        ]
     }
+    
         
 ]
