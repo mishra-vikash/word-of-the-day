@@ -390,6 +390,17 @@ const words = [
             "Paying scrupulous attention to correctness in etiquette", 
             "Attentive to detail"
         ]
+    },
+   {     word: "Surmise", type: "verb/noun",
+        meaning: [
+            "Verb. Suppose that something is true without having evidence to confirm it.", 
+            "Noun. A supposition that something may be true, even though there is no evidence to confirm it."
+        ]
+    },
+   {     word: "Inveigh", type: "verb",
+        meaning: [
+            "Speak or write about (something) with great hostility. " 
+        ]
     }
         
 ]
