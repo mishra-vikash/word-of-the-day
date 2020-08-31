@@ -409,6 +409,16 @@ const words = [
             "Shudder",
             "Thrill"
         ]
+    },
+    {     word: "Sententious", type: "adjective",
+        meaning: [
+            "Given to moralizing in a pompous or affected manner"
+        ]
+    },
+    {     word: "Trepidation", type: "noun",
+        meaning: [
+            "A feeling of fear or agitation about something that may happen"
+         ]
     }
     
         
